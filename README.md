@@ -42,7 +42,7 @@ signs data set:
 
 Here is an exploratory visualization of the data set. It is a bar chart showing the distribution of classes vursas training set
 
-![alt text][https://i.ibb.co/YhPWQNq/index15.png]
+![alt text](https://i.ibb.co/YhPWQNq/index15.png)
 
 ### Design and Test a Model Architecture
 
@@ -52,7 +52,7 @@ As a first step, I decided to convert the images to grayscale because it's easie
 
 Here is an example of a traffic sign image after grayscaling.
 
-![alt text][https://i.ibb.co/KXpW3X9/15.png]
+![alt text](https://i.ibb.co/KXpW3X9/15.png)
 
 As a last step, I normalized the image data because calculating very low or high values numerically is a huge load , so it's easier for the optimizer
  
@@ -78,7 +78,7 @@ My final model consisted of the following layers:
 |layer 3				|output 84										|
 |layer 4				|output 43										| 
 
-![alt text][https://i.ibb.co/mzQYD3y/lenet.png]
+![alt text](https://i.ibb.co/mzQYD3y/lenet.png)
 
 
 #### 3. Training the model.
@@ -108,11 +108,11 @@ I got a very good result with test accuracy 91% and I think it could be a traffi
 I tested the model with five images from the web , and it got 4 out of 5 correct
 I tried to test the model with difficult shapes and low quality
 you can find the images in ../test images
-![alt text][https://i.ibb.co/hX7sy2z/11.png]
-![alt text][https://i.ibb.co/Y84z5wj/22.png]
-![alt text][https://i.ibb.co/zJc5Fkx/33.png]
-![alt text][https://i.ibb.co/bHXnTwT/44.png]
-![alt text][https://i.ibb.co/jyF1bJw/55.png]
+![alt text](https://i.ibb.co/hX7sy2z/11.png)
+![alt text](https://i.ibb.co/Y84z5wj/22.png)
+![alt text](https://i.ibb.co/zJc5Fkx/33.png)
+![alt text](https://i.ibb.co/bHXnTwT/44.png)
+![alt text](https://i.ibb.co/jyF1bJw/55.png)
 
 #### 2. Result of prediction.
 
